@@ -4,8 +4,7 @@
 
 This project is a Streamlit web application for Rosa's Pizza.
 
-The purpose of the app is to help Rosa choose the most profitable promised
-delivery time for a selected delivery zone and time block.
+The purpose of the app is to help Rosa choose the most profitable promised delivery time for a selected delivery zone and time block.
 
 The application is based on analysis already completed in the A1 notebook.
 The existing logic should be preserved when building the Streamlit application.
@@ -123,8 +122,7 @@ Allow the user to select:
 
 Promises should be evaluated in 5-minute increments.
 
-For example, if the user selects a minimum of 30 and maximum of 75, the app
-should evaluate:
+For example, if the user selects a minimum of 30 and maximum of 75, the app should evaluate:
 
     30, 35, 40, 45, 50, 55, 60, 65, 70, 75
 
@@ -140,8 +138,7 @@ Allow the user to adjust:
 
 The default values should come from the imported `COSTS` dictionary.
 
-Create a new costs dictionary from the user's selected values and pass this
-dictionary to the optimization function.
+Create a new costs dictionary from the user's selected values and pass this dictionary to the optimization function.
 
 Do not modify the original imported COSTS dictionary.
 
