@@ -1,0 +1,26 @@
+[project]
+name = "a1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Raksh1606", email = "koodorub@mcmaster.ca" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "rosa-starter",
+    "streamlit>=1.65.0",
+]
+
+[project.scripts]
+a1 = "a1:main"
+
+[build-system]
+requires = ["uv_build>=0.12.12,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.sources]
+rosa-starter = { git = "https://github.com/zhouy185/rosa-starter.git" }
